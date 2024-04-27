@@ -1,0 +1,8 @@
+package com.company.util;
+
+public class DUBtil {
+	private static final String url = "jdbc:mysql://localhost:3306/";
+	private static final String username = "root";
+	private static final String password = "root"
+			+ "";
+}

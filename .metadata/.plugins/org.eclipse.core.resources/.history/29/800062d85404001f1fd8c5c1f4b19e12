@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Form</title>
+<link rel="stylesheet" type = "text/css" href="indexStyle.css">
+<link rel="stylesheet" type = "text/css" href="loginStyle.css">
+</head>
+
+<body>
+<div class = "container">
+<h1>Welcome to DRA COM</h1>
+	<div class = "links">
+		<a href = "login.jsp">Login</a>
+		<a href = "register.jsp">Register</a>
+	</div>
+</div>
+
+
+</body>
+</html>

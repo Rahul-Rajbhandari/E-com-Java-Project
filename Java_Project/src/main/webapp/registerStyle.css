@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+body{
+	align-items: center;
+	background-color: #EEEEEE;
+	font-family: "Poppins", sans-serif;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-image: url('robot.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	position: relative;
+	width: 600px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid #FEFBF6;
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px #222831;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+}

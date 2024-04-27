@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+body{
+	align-items: center;
+	background-color: #EEEEEE;
+	font-family: "Poppins", sans-serif;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-image: url('robot-performing-fireman-work-instead-humans.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	position: relative;
+	width: 600px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid #FEFBF6;
+	border-radius: 20px;
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0 30px #222831;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+}
+h1{
+	padding: 40px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.links a{
+	margin: 6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #1B1A55;
+	transition: color 0.3 ease;	
+}
+.links a:hover{
+	color: #000000;
+	font-size: 20px;
+}
