@@ -1,17 +1,16 @@
 package com.company.servlet;
 
 import jakarta.servlet.ServletException;
-import com.company.dao.UserDao;
-
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import com.company.dao.UserDao;
+import com.company.dao.UserDaoImpl;
 
 import java.io.IOException;
 
-import com.company.dao.UserDaoImpl;
 
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

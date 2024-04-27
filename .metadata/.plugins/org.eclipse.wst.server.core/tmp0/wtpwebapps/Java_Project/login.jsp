@@ -26,6 +26,12 @@
 			if (error!=null && error.equals("1")){%>
 			<p style ="color: red ;">Invalid email or password</p>
 			<%} %>
+			
+	<%String rs = request.getParameter("registration");
+	if(rs!=null && rs.equals("success")){
+	%>		
+	<p style = "color :green ;">Registered successfully</p>
+	<%} %>
 </div>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
